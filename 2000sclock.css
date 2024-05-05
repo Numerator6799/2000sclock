@@ -1,5 +1,5 @@
 div#clock2000s {
-    background-image: url(images/cat.gif);
+    background-image: url(https://numerator6799.github.io/2000sclock/images/cat.gif);
     background-repeat: no-repeat;
     background-color: lightskyblue;
     border: 3px dashed cornflowerblue;
@@ -24,7 +24,7 @@ div#clockDisplay {
 }
 
 div#clock2000s::after {
-    content: url(images/tiniblueflower.gif);
+    content: url(https://numerator6799.github.io/2000sclock/images/tiniblueflower.gif);
     position: absolute;
     bottom: 0;
     right: 7px;
