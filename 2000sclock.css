@@ -1,0 +1,31 @@
+div#clock2000s {
+    background-image: url(images/cat.gif);
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+    border: 3px dashed cornflowerblue;
+    width: 105px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: right;
+    display: flex;
+    padding-right: 15px;
+    position: relative;
+}
+
+div#clockDisplay {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    background-color: white;
+    padding: 5px;
+    border: 1px double darkgray;
+    border-radius: 8px;
+}
+
+div#clock2000s::after {
+    content: url(images/tiniblueflower.gif);
+    position: absolute;
+    bottom: 0;
+    right: 7px;
+}
